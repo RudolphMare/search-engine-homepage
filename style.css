@@ -48,3 +48,12 @@
   border: 1px solid #f2f2f2
 }
 
+.languages {
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+.languages a {
+    color: #1a0dab;
+    text-decoration: none;
+}
