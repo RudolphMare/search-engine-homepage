@@ -1,6 +1,6 @@
 A non-functional copy of the Google home page.
 
-This is the project at the end of The Odin Project's basic HTML and CSS course. The curriculum can be found here:
+This is the project at the end of The Odin Project's basic HTML and CSS course. The project brief can be found here:
 (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
 My goal with this project was to put into practice all the HTML and CSS skills I have learned during this course module. As per the project instructions, I did not aim to get every element placed pixel-perfect. I also did not add any hover elements, nor did I add any functionality.
