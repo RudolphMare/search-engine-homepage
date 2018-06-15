@@ -1,5 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .logo {
-  /*position: absolute;*/
   top: 200px;
   display: block;
   margin-left: 260px;
@@ -10,13 +18,8 @@
   top: 200px;
   display: block;
   text-align: center;
-  position: relative;
-  /*margin-left: 35%*/
+  position: relative;  
 }
-
-
-
-
 
 .text_field {
   height: 44px;
@@ -61,20 +64,24 @@
   border: 1px solid #f2f2f2
 }
 
-.languages, .menu_top {
+#search_buttons {
+  padding-top: 18px;
+}
+
+.languages, .menu_top, .bottom {
   font-family: arial, sans-serif;
   font-size: small;
 }
 
-.languages a {
-    color: #1a0dab;
-    text-decoration: none;
+.languages {
+  padding-top: 18px;
 }
 
-.menu_top a {
-  
-  text-decoration: none;
-  
+.languages a {
+    color: #1a0dab;
+}
+
+.menu_top a {  
   float: right;
   text-align: center;
 }
@@ -84,7 +91,7 @@
   padding: 14px 10px;
 }
 
-nav {
+.menu_top nav {
   justify-content: flex-end;
 }
 
@@ -117,3 +124,43 @@ li {
   margin-right: 20px;
 }
 
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  display: block;
+  
+
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+}
+
+
+
+.country_bar {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#country {
+  font-size: 15px;
+  color: #0000008a;
+  margin-left: 30px;   
+}
+
+#footer a {
+  color: #666;
+  margin-left: 27px;  
+}
+
+#footer_left {
+  margin-left: 3px;
+}
+#footer_right {
+  float: right;
+  margin-right: 30px;
+}
