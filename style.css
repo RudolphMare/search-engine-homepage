@@ -87,7 +87,7 @@ a {
 }
 
 .menu_black {
-  color: rgba(0,0,0,0.87);
+  color: #000000de;
   padding: 14px 10px;
 }
 
@@ -95,18 +95,9 @@ a {
   justify-content: flex-end;
 }
 
-ul {
-  float: right;
-  display: inline;
-}
-
-li {
-  display: inline;
-}
-
 .material-icons {
   margin-top: 10px;
-  margin
+  color: #000000de;
 }
 
 .sign_in {
@@ -140,8 +131,6 @@ li {
   min-width: 980px;
 }
 
-
-
 .country_bar {
   border-bottom: 1px solid #e4e4e4;
 }
@@ -160,6 +149,7 @@ li {
 #footer_left {
   margin-left: 3px;
 }
+
 #footer_right {
   float: right;
   margin-right: 30px;
