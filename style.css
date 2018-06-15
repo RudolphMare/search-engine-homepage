@@ -1,9 +1,22 @@
-.center {
+.logo {
+  /*position: absolute;*/
+  top: 200px;
   display: block;
-  text-align: -webkit-center;
-  position: relative;
-  top: 233px;
+  margin-left: 260px;
+  margin-right: auto;
 }
+
+.center {
+  top: 200px;
+  display: block;
+  text-align: center;
+  position: relative;
+  /*margin-left: 35%*/
+}
+
+
+
+
 
 .text_field {
   height: 44px;
@@ -48,7 +61,7 @@
   border: 1px solid #f2f2f2
 }
 
-.languages {
+.languages, .menu_top {
   font-family: arial, sans-serif;
   font-size: small;
 }
@@ -57,3 +70,50 @@
     color: #1a0dab;
     text-decoration: none;
 }
+
+.menu_top a {
+  
+  text-decoration: none;
+  
+  float: right;
+  text-align: center;
+}
+
+.menu_black {
+  color: rgba(0,0,0,0.87);
+  padding: 14px 10px;
+}
+
+nav {
+  justify-content: flex-end;
+}
+
+ul {
+  float: right;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+.material-icons {
+  margin-top: 10px;
+  margin
+}
+
+.sign_in {
+  color: #fff;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;  
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
